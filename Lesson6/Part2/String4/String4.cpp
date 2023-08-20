@@ -8,9 +8,10 @@ int main() {
 		cin >> N;
 	} while (N < 1 || N > 26);
 	
-	char letters[26] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};
+	char letter = 'A';
 	
 	for (int i = 0; i < N; i++) {
-		cout << letters[i] << " ";
+		cout << letter << " ";
+		letter++;
 	}
 }
